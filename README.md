@@ -1,5 +1,4 @@
-# NOTE: I am no longer using a Pixelbook, so will not be maintaining this. Someone should either fork it or let me know and if they want to be able to commit new changes/PRs - @flantel
-
+# I've modified this to compile on MX Linux 19.2, I'm by no means an expert, and will be happy to try and assist but will not likely be able to actually do much! This is a fork with all my modifications to get Audio working and Kernel 4.4 booting on a Debian Buster base.
 # Installing "real" linux on a Google Pixelbook
 
 This repo documents the process of replacing ChromeOS on a stock [Google Pixelbook][pixelbook_product_page]
