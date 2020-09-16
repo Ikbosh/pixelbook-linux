@@ -9,6 +9,11 @@
       - python
       - python3
       - pkg-config
+      - flex
+      - bison
+      - libssl-dev
+      - autotools-dev
+      - automake
 
       # Needed for mounting recovery image
       - kpartx
@@ -23,5 +28,16 @@
       - libspeex-dev
       - libspeexdsp-dev
       - libasound2-dev
+
+      # Touchpad
+      - libgtest-dev
+      - libjsoncpp-dev
+      - libxi-dev
+      - xutils-dev
+      - xserver-xorg-dev
+
+      # Video Driver Issues, may need additional troubleshooting. See README
+      - firmware-linux-nonfree
+
     state: latest 
 
